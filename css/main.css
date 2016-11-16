@@ -1,0 +1,84 @@
+body{
+    font-family: Arial;
+}
+a{
+    color: black;
+    
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+#googleLogo{
+    margin-top: 13%;
+    margin-left: 36%;
+}
+#logo-and-searchbox form input{
+    width: 650px;
+    margin-left: 31%;
+    margin-top: 1%;
+    height: 40px;
+    box-shadow: 0px 2px 2px silver;
+
+}
+#logo-and-searchbox form input:focus{
+    box-shadow: 1px 5px 5px silver;
+}
+#main-nav{
+    margin-left: 87%;
+}
+#main-nav li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 4px;
+}
+#main-nav ul button{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    padding: 4px 5px 4px 5px;
+}
+#main-nav ul button a{
+    color:white;
+}
+
+#search-lucky {
+    margin-left:40%;
+    margin-top: 2%;
+}
+#search-lucky button{
+    border-color: transparent;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+#search-lucky button:hover{
+    background-color: white;
+    border-color:gainsboro;
+    color: black;
+}
+#search-lucky button a{
+    color: dimgray;
+}
+footer{
+    margin-top:18.9%;
+    border-top: 1px solid silver;
+   
+}
+footer div{
+    margin-top: 0.4%;
+    display: inline-block;
+    
+}
+footer #right-footer-elements{
+    display: inline-block;
+    margin-left:75%;
+    
+}
+footer a{
+    margin-left: 15px;
+}
